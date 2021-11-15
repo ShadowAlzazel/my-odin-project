@@ -1,3 +1,16 @@
 {
-    "workbench.preferredLightColorTheme": "GitHub Dark Default"
+    "workbench.preferredLightColorTheme": "GitHub Dark",
+    "workbench.colorTheme": "GitHub Dark",
+    "editor.tokenColorCustomizations": {
+        "[GitHub Dark]": {
+            "textMateRules": [
+                {
+                    "scope": "entity.name.tag",
+                    "settings": {
+                        "foreground": "#ff8f8f"
+                    }
+                }
+            ]
+        }
+    }
 }
